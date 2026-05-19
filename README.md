@@ -1,16 +1,62 @@
-# React + Vite
+# FiberOps
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistema de gerenciamento de chamados para suporte técnico de provedores de internet.
 
-Currently, two official plugins are available:
+## Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- Node.js
+- Express
+- SQLite
+- Git
+- GitHub
+- Vite
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Abertura de chamados
+- Dashboard administrativo
+- Atualização de status
+- Exclusão de chamados
+- Controle de prioridades
+- Interface cliente e administrador
 
-## Expanding the ESLint configuration
+## Estrutura do projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+backend/
+src/
+public/
+package.json
+vite.config.js
+README.md
+```
+
+## Como executar o projeto
+
+### Frontend
+
+```bash
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+cd backend
+npm install
+node server.js
+```
+
+## Segurança
+
+O projeto utiliza variáveis de ambiente através do arquivo `.env`, evitando deixar configurações fixas diretamente no código.
+
+## Controle de versão
+
+O projeto utiliza Git e GitHub para versionamento de código.
+
+## Objetivo do projeto
+
+Simular o fluxo de trabalho de uma squad de desenvolvimento Full-Stack utilizando práticas modernas de desenvolvimento, infraestrutura e organização de repositório.
