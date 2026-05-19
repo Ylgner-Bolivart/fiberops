@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #eef2f7, #f8fafc);
+  color: #1f2937;
+}
+
+h1 {
+  margin-bottom: 5px;
+  color: #111827;
+}
+
+h3 {
+  margin-top: 0;
+  color: #6b7280;
+  font-weight: normal;
+}
+
+input, textarea, select {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 8px;
+}
+
+button {
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.8;
+  transform: scale(1.02);
+}
+
+.task-card {
+  background: white;
+  padding: 16px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  max-width: 450px;
+}
