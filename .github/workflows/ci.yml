@@ -6,25 +6,12 @@ on:
       - main
 
 jobs:
-  build:
+  docker-build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Clonar repositório
         uses: actions/checkout@v4
 
-      - name: Configurar Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Instalar dependências do frontend
-        run: npm install
-
-      - name: Build do frontend
-        run: npm run build
-
-      - name: Instalar dependências do backend
-        run: |
-          cd backend
-          npm install
+      - name: Build da imagem Docker
+        run: docker build -t fiberops .
