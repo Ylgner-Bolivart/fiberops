@@ -1,6 +1,6 @@
 # FiberOps
 
-## Integrante da Squad
+## Desenvolvedor Responsável
 
 - Ylgner Leite Cavalcanti
 
