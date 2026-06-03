@@ -1,5 +1,9 @@
 # FiberOps
 
+## Integrante da Squad
+
+- Ylgner Leite Cavalcanti
+
 Sistema de gerenciamento de chamados para suporte técnico de provedores de internet.
 
 ## Tecnologias utilizadas
