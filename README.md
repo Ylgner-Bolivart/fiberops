@@ -96,6 +96,39 @@ O projeto utiliza Docker para facilitar a execução da aplicação em diferente
 docker build -t fiberops .
 ```
 
+## Instalação com Docker
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/Ylgner-Bolivart/fiberops.git
+```
+
+Acesse a pasta do projeto:
+
+```bash
+cd fiberops
+```
+
+Crie a imagem Docker:
+
+```bash
+docker build -t fiberops .
+```
+
+Execute o container:
+
+```bash
+docker run -p 5173:5173 fiberops
+```
+
+Acesse a aplicação:
+
+```txt
+http://localhost:5173
+```
+
+
 ## Segurança
 
 O projeto utiliza variáveis de ambiente através do arquivo `.env`, evitando deixar informações sensíveis diretamente no código.
