@@ -8,8 +8,7 @@ Sistema de gerenciamento de chamados para suporte técnico de provedores de inte
 
 ## Objetivo do Projeto
 
-Criar um sistema para gerenciamento de chamados técnicos, permitindo abrir solicitações, acompanhar o andamento dos atendimentos e registrar respostas aos clientes.
-
+Sistema desenvolvido para gerenciamento de chamados técnicos, permitindo abrir solicitações, acompanhar o andamento dos atendimentos e registrar respostas aos clientes.
 
 ## Funcionalidades
 
